@@ -18,7 +18,7 @@ export const casinos = [
         minDeposit: '0.001 BTC',
         withdrawalTime: 'Instantané',
         licenseText: 'Curaçao Gaming Authority',
-        affiliateUrl: 'https://stake.com/?c=VOTREREF', // ← Remplacer après inscription: stake.com/affiliates
+        affiliateUrl: 'https://stake.com/?c=tARfHbZE',
         commission: '35%',
         commissionType: 'recurring',
         badge: 'top-pick',
