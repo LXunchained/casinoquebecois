@@ -24,6 +24,7 @@ export default function Footer() {
                             <h4>Navigation</h4>
                             <Link to="/">Accueil</Link>
                             <Link to="/meilleurs-casinos">Top Casinos</Link>
+                            <Link to="/casino-crypto-quebec">Casino Crypto</Link>
                             <Link to="/bonus">Bonus & Promotions</Link>
                             <Link to="/guide">Guides</Link>
                             <Link to="/faq">FAQ</Link>

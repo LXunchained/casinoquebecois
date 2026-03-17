@@ -12,6 +12,7 @@ import FaqPage from './pages/FaqPage'
 import JeuResponsable from './pages/JeuResponsable'
 import Confidentialite from './pages/Confidentialite'
 import APropos from './pages/APropos'
+import PillarPage from './pages/PillarPage'
 import StickyCTA from './components/StickyCTA'
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
                     <Route path="/jeu-responsable" element={<JeuResponsable />} />
                     <Route path="/confidentialite" element={<Confidentialite />} />
                     <Route path="/a-propos" element={<APropos />} />
+                    <Route path="/casino-crypto-quebec" element={<PillarPage />} />
                 </Routes>
             </main>
             <Footer />

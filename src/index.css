@@ -1195,3 +1195,104 @@ main { flex: 1; }
     .partner-item { flex-wrap: wrap; }
 }
 
+
+/* ============================================
+   PILLAR PAGE (/casino-crypto-quebec)
+   ============================================ */
+.pillar-hero {
+    padding: 80px 0 60px;
+    background: radial-gradient(ellipse at 50% 0%, rgba(245,158,11,0.12) 0%, transparent 65%);
+    border-bottom: 1px solid var(--border); text-align: center;
+}
+.pillar-hero-content { max-width: 700px; margin: 0 auto; }
+.pillar-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(245,158,11,0.1); border: 1px solid var(--border-gold);
+    color: var(--gold); padding: 5px 14px; border-radius: 40px;
+    font-size: 12px; font-weight: 600; margin-bottom: 20px;
+}
+.pillar-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    font-weight: 900; line-height: 1.15; margin-bottom: 18px;
+}
+.pillar-intro { font-size: 1.05rem; color: var(--text-muted); line-height: 1.7; margin-bottom: 24px; }
+.pillar-trust-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; font-size: 13px; color: var(--text-muted); }
+.pillar-trust-row span { background: rgba(255,255,255,0.04); border: 1px solid var(--border); padding: 6px 14px; border-radius: 20px; }
+
+.pillar-toc-section { padding: 32px 0; border-bottom: 1px solid var(--border); }
+.pillar-toc { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; }
+.pillar-toc h2 { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 14px; }
+.pillar-toc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; }
+.pillar-toc-grid a { display: block; padding: 10px 14px; border-radius: 8px; font-size: 14px; color: var(--text-muted); background: var(--bg); border: 1px solid var(--border); transition: color 0.2s, border-color 0.2s; }
+.pillar-toc-grid a:hover { color: var(--gold); border-color: var(--border-gold); }
+
+.pillar-section { padding: 64px 0; }
+.pillar-section--alt { background: rgba(255,255,255,0.02); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.pillar-section-title { display: flex; align-items: center; gap: 10px; font-family: 'Outfit', sans-serif; font-size: 1.7rem; font-weight: 900; margin-bottom: 12px; }
+.pillar-section-sub { font-size: 14px; color: var(--text-muted); margin-bottom: 32px; max-width: 600px; }
+
+.pillar-casino-list { display: flex; flex-direction: column; gap: 12px; }
+.pillar-casino-card { display: flex; align-items: center; gap: 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 24px; transition: box-shadow 0.2s; border-left: 4px solid var(--accent, var(--gold)); }
+.pillar-casino-card:hover { box-shadow: var(--shadow); }
+.pcc-rank { font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 900; width: 36px; flex-shrink: 0; }
+.pcc-logo { width: 52px; height: 52px; border-radius: 12px; font-size: 28px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border); flex-shrink: 0; }
+.pcc-info { flex: 1; min-width: 0; }
+.pcc-name { font-weight: 700; font-size: 15px; margin-bottom: 2px; }
+.pcc-bonus { font-family: 'Outfit', sans-serif; font-size: 1.1rem; font-weight: 800; }
+.pcc-detail { font-size: 12px; color: var(--text-dim); margin-top: 2px; }
+.pcc-rating { display: flex; align-items: center; gap: 5px; font-weight: 700; font-size: 15px; color: var(--gold); flex-shrink: 0; }
+.pcc-actions { display: flex; gap: 8px; flex-shrink: 0; }
+.pcc-btn-primary { padding: 9px 18px; border-radius: 9px; color: #fff; font-weight: 700; font-size: 13px; transition: opacity 0.2s; }
+.pcc-btn-primary:hover { opacity: 0.88; }
+.pcc-btn-secondary { padding: 9px 14px; border-radius: 9px; font-size: 13px; font-weight: 600; background: var(--bg); border: 1px solid var(--border); color: var(--text-muted); transition: color 0.2s; }
+.pcc-btn-secondary:hover { color: var(--text); }
+
+.pillar-content-block { max-width: 780px; }
+.pillar-text p { font-size: 15px; color: var(--text-muted); line-height: 1.8; margin-bottom: 14px; }
+.pillar-check-list { display: flex; flex-direction: column; gap: 10px; margin: 20px 0; }
+.pillar-check-item { display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: var(--text-muted); line-height: 1.6; }
+.pillar-check-item svg { color: var(--green); flex-shrink: 0; margin-top: 2px; }
+.pillar-read-more { display: inline-flex; align-items: center; gap: 8px; color: var(--gold); font-weight: 700; font-size: 14px; margin-top: 20px; transition: gap 0.2s; }
+.pillar-read-more:hover { gap: 12px; }
+
+.pillar-comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px; }
+.pillar-comp-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; }
+.pillar-comp-card--green { border-top: 3px solid var(--green); }
+.pillar-comp-card--orange { border-top: 3px solid #f59e0b; }
+.pcomp-title { font-weight: 700; font-size: 15px; margin-bottom: 14px; }
+.pillar-comp-card ul { display: flex; flex-direction: column; gap: 8px; padding-left: 16px; }
+.pillar-comp-card li { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+
+.pillar-steps { display: flex; flex-direction: column; gap: 16px; max-width: 700px; }
+.pillar-step { display: flex; gap: 18px; align-items: flex-start; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 20px; }
+.pillar-step-num { width: 36px; height: 36px; border-radius: 50%; flex-shrink: 0; background: linear-gradient(135deg, var(--gold-light), var(--gold-dark)); color: #000; font-weight: 900; font-size: 16px; display: flex; align-items: center; justify-content: center; }
+.pillar-step-title { font-weight: 700; font-size: 15px; margin-bottom: 4px; }
+.pillar-step-desc { font-size: 13px; color: var(--text-muted); line-height: 1.7; }
+
+.pillar-guides-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+.pillar-guide-card { display: flex; align-items: center; gap: 14px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 16px 20px; transition: border-color 0.2s, transform 0.2s; }
+.pillar-guide-card:hover { border-color: var(--border-gold); transform: translateX(4px); }
+.pillar-guide-card--all { border-style: dashed; }
+.pgc-emoji { font-size: 28px; flex-shrink: 0; }
+.pgc-content { flex: 1; min-width: 0; }
+.pgc-category { font-size: 10px; font-weight: 700; color: var(--gold); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
+.pgc-title { font-size: 14px; font-weight: 600; line-height: 1.4; }
+.pgc-read { font-size: 11px; color: var(--text-dim); margin-top: 3px; }
+.pgc-arrow { color: var(--text-dim); flex-shrink: 0; transition: transform 0.2s, color 0.2s; }
+.pillar-guide-card:hover .pgc-arrow { transform: translateX(4px); color: var(--gold); }
+
+.pillar-faq-list { display: flex; flex-direction: column; gap: 14px; max-width: 780px; margin-bottom: 24px; }
+.pillar-faq-item { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 22px 24px; }
+.pfaq-q { font-weight: 700; font-size: 15px; margin-bottom: 10px; }
+.pfaq-a { font-size: 14px; color: var(--text-muted); line-height: 1.8; }
+
+@media (max-width: 768px) {
+    .pillar-comparison-grid { grid-template-columns: 1fr; }
+    .pillar-casino-card { flex-wrap: wrap; }
+    .pcc-actions { width: 100%; }
+    .pillar-guides-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+    .pillar-casino-card { flex-direction: column; align-items: flex-start; }
+}

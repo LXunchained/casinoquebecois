@@ -863,6 +863,50 @@ Pour les montants plus importants, ce pourcentage diminue proportionnellement.`
             casino: 'Stake',
         }
     },
+    {
+        slug: 'gamdom-vs-rollbit-2026',
+        title: 'Gamdom vs Rollbit 2026 — Comparaison Complète pour les Québécois',
+        metaTitle: 'Gamdom vs Rollbit 2026 — Comparaison CS2, Rakeback & Bonus | CasinoQuébécois',
+        metaDescription: 'Gamdom ou Rollbit? Comparaison complète 2026 : cases CS2, rakeback, interface, bonus et communauté. Lequel choisir pour les joueurs québécois?',
+        category: 'Comparaison',
+        readTime: '8 min',
+        date: '17 mars 2026',
+        casinoSlug: 'gamdom',
+        heroEmoji: '⚔️',
+        intro: 'Gamdom et Rollbit sont les deux casinos crypto les plus populaires dans la communauté CS2 et gaming. Les deux offrent du rakeback, des cases CS2 et une forte présence sur Twitch. Alors lequel choisir? On compare tout en détail.',
+        sections: [
+            {
+                title: 'Vue d\'ensemble rapide',
+                content: `**Gamdom** : Fondé en 2016, pionnier du gambling CS2 avec une communauté gaming très forte, rakeback "Rain" unique, et forte présence Twitch.\n\n**Rollbit** : Fondé en 2020, connu pour son token RLB natif, son jackpot progressif en temps réel affiché dans l'interface, et ses cases CS2 intégrées.\n\nLes deux acceptent principalement les cryptomonnaies et ciblent les mêmes types de joueurs : gamers, amateurs de CS2, et joueurs crypto. La question est : à qui va ta loyauté?`
+            },
+            {
+                title: 'Cases CS2 — Match nul, mais différences de détail',
+                content: `Les deux plateformes permettent d'ouvrir des cases CS2 directement depuis le casino et de recevoir les skins sur Steam.\n\n**Gamdom CS2 :**\n- Accès aux cases officielles Valve ET aux cases tierces\n- Intégration Steam directe et fluide\n- Communauté CS2 établie depuis 2016 — beaucoup de streamers s'y retrouvent\n\n**Rollbit CS2 :**\n- Sélection parfois plus large de cases tierces\n- Interface moderne et visuellement engageante\n- Jackpot progressif visible en même temps que vous ouvrez vos cases\n\n**Avantage :** Légèrement **Gamdom** pour la fidélité de la communauté CS2 et l'historique de la plateforme. Rollbit s'en sort bien aussi, mais Gamdom est plus "chez soi" pour la communauté CS.`
+            },
+            {
+                title: 'Rakeback — Structures très différentes',
+                content: `C'est ici que les deux plateformes se distinguent le plus.\n\n**Gamdom — "Rain" system :**\nLe rakeback de Gamdom fonctionne en deux volets :\n1. **Rakeback standard :** Pourcentage basé sur votre niveau (plus vous jouez, plus votre % augmente)\n2. **Rain :** Système communautaire unique — des pluies de crypto tombent régulièrement sur les joueurs actifs dans le chat. Les streamers "font pleuvoir" sur leur audience.\n\nLe rakeback Gamdom peut atteindre des niveaux très élevés pour les high-rollers, mais est plus faible pour les débutants.\n\n**Rollbit — Rakeback instantané 3% flat :**\nRollbit offre un rakeback fixe de 3% sur toutes les mises, crédité en temps réel sans condition. Pas de niveaux, pas de wagering.\n\n**Avantage :** **Rollbit** pour les nouveaux joueurs (taux fixe dès le premier jour). **Gamdom** pour les joueurs réguliers qui atteignent les niveaux supérieurs.`
+            },
+            {
+                title: 'Token natif — Rollbit gagne clairement',
+                content: `**Gamdom** n'a pas de token natif. Le rakeback est en USD ou en crypto.\n\n**Rollbit** a le **token RLB** : un token ERC-20 dont la valeur est liée à l'activité du casino. Chaque mise sur Rollbit génère des frais qui rachètent et brûlent des RLB — créant une pression haussière naturelle.\n\nSi vous êtes aussi intéressé par la dimension "investissement crypto" en plus du gambling, **Rollbit gagne** clairement sur ce critère. Les RLB ont connu des hausses importantes lors des pics d'activité du casino.`
+            },
+            {
+                title: 'Interface & expérience utilisateur',
+                content: `**Gamdom :** Interface gaming, très communautaire. Le chat en direct est central — c'est là que se passent les Rains, les discussions, et le social. L'ambiance est proche d'un salon Discord.\n\n**Rollbit :** Interface plus moderne et épurée. Le jackpot progressif en temps réel crée une atmosphère d'excitation visuelle constante. Moins "social", mais plus "casino premium".\n\n**Avantage global UI :** Rollbit. **Avantage social :** Gamdom.`
+            },
+            {
+                title: 'Notre recommandation finale',
+                content: `**Choisissez Gamdom si :**\n- Vous faites partie de la communauté CS2/gaming et aimez le côté social\n- Vous prévoyez jouer régulièrement (les niveaux de rakeback deviennent compétitifs)\n- Vous aimez interagir avec des streamers et leur communauté via les Rains\n\n**Choisissez Rollbit si :**\n- Vous débutez et voulez un rakeback fixe dès le jour 1\n- Vous êtes intéressé par le token RLB comme investissement adjacent\n- Vous préférez une interface moderne avec le jackpot progressif en direct\n\n**Notre verdict :** Les deux sont excellents. Créez un compte sur les deux (c'est gratuit) et testez — vos préférences personnelles décideront rapidement.`
+            }
+        ],
+        tags: ['gamdom', 'rollbit', 'comparaison', 'cs2', 'rakeback', 'québec'],
+        cta: {
+            text: 'Voir le classement complet des casinos crypto 2026',
+            url: '/meilleurs-casinos',
+            casino: 'Stake',
+        }
+    },
 ];
 
 export const getGuideBySlug = (slug) => guides.find(g => g.slug === slug) || null;
