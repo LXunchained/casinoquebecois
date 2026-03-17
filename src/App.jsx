@@ -14,6 +14,7 @@ import Confidentialite from './pages/Confidentialite'
 import APropos from './pages/APropos'
 import PillarPage from './pages/PillarPage'
 import StickyCTA from './components/StickyCTA'
+import LeadModal from './components/LeadModal'
 
 function App() {
     return (
@@ -37,6 +38,7 @@ function App() {
             </main>
             <Footer />
             <StickyCTA />
+            <LeadModal />
         </div>
     )
 }
