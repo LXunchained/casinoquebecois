@@ -7,18 +7,18 @@ import SEOMeta from '../components/SEOMeta'
 
 const PILLAR_GUIDES = [
     'stake-casino-quebec-legal',
-    'roobet-casino-avis-quebec',
     'gamdom-avis-quebec-2026',
-    'rollbit-avis-quebec-2026',
     'rakeback-vs-bonus-bienvenue',
-    'casino-bitcoin-quebec-legal',
+    'gamdom-vs-rollbit-2026',
+    'casino-bitcoin-canada-guide',
+    'stake-vs-bc-game-comparaison',
 ]
 
 const FAQ = [
     { q: 'Les casinos crypto sont-ils légaux au Québec?', a: 'Dans la pratique, oui. Aucune loi fédérale canadienne n\'interdit explicitement aux citoyens de jouer sur des casinos étrangers en ligne. Ces plateformes opèrent sous licences internationales (Curaçao, Malta) et accueillent les joueurs québécois.' },
     { q: 'Qu\'est-ce que le rakeback?', a: 'Le rakeback est un remboursement automatique d\'un % de vos mises, sans condition. C\'est différent d\'un bonus de bienvenue : vous recevez ces fonds continuellement, au fil de votre jeu, sans wagering requis.' },
     { q: 'Comment déposer avec Bitcoin au casino?', a: 'Achetez du BTC sur une plateforme comme Shakepay ou Bitbuy, créez un compte sur le casino, copiez l\'adresse de dépôt BTC du casino, et envoyez le montant depuis votre portefeuille. Le dépôt arrive en 10-30 minutes.' },
-    { q: 'Quel casino offre le meilleur bonus en 2026?', a: 'Pour les joueurs réguliers : Stake avec son rakeback automatique (aucun wagering). Pour le gros bonus de bienvenue : BC.Game (jusqu\'à 20 000 USD). Pour débuter gratuitement : Roobet offre 1$ sans dépôt.' },
+    { q: 'Quel casino offre le meilleur bonus en 2026?', a: 'Pour les joueurs réguliers : Stake avec son rakeback automatique (aucun wagering). Pour le gros bonus de bienvenue : BC.Game (jusqu\'à 20 000 USD). Pour le gaming et les skins CS2 : Gamdom avec son rain bonus communautaire.' },
 ]
 
 export default function PillarPage() {
@@ -56,7 +56,7 @@ export default function PillarPage() {
         <div className="pillar-page">
             <SEOMeta
                 title="Casino Crypto Québec 2026 — Guide Complet Bitcoin & Rakeback"
-                description="Tout ce que vous devez savoir sur les casinos crypto au Québec : légalité, meilleurs bonus Bitcoin, rakeback automatique, Stake, Roobet, BC.Game. Guides vérifiés 2026."
+                description="Tout ce que vous devez savoir sur les casinos crypto au Québec : légalité, meilleurs bonus Bitcoin, rakeback automatique, Stake, BC.Game, Gamdom. Guides vérifiés 2026."
                 canonical="/casino-crypto-quebec"
             />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
@@ -98,7 +98,7 @@ export default function PillarPage() {
                     <div className="pillar-toc">
                         <h2><BookOpen size={18} /> Dans ce guide</h2>
                         <div className="pillar-toc-grid">
-                            <a href="#meilleurs-casinos">🏆 Les 5 meilleurs casinos crypto</a>
+                            <a href="#meilleurs-casinos">🏆 Les 3 meilleurs casinos crypto</a>
                             <a href="#legalite">⚖️ Légalité au Québec</a>
                             <a href="#rakeback">💰 Rakeback vs bonus bienvenue</a>
                             <a href="#comment-deposer">₿ Comment déposer en Bitcoin</a>
@@ -113,7 +113,7 @@ export default function PillarPage() {
             <section className="pillar-section" id="meilleurs-casinos">
                 <div className="container">
                     <h2 className="pillar-section-title">
-                        <Award size={22} /> Les 5 Meilleurs Casinos Crypto au Québec en 2026
+                        <Award size={22} /> Les 3 Meilleurs Casinos Crypto au Québec en 2026
                     </h2>
                     <p className="pillar-section-sub">
                         Sélectionnés selon : licence valide, délais de retrait, bonus sans conditions, et réputation dans la communauté québécoise.
@@ -172,7 +172,7 @@ export default function PillarPage() {
                             <p>
                                 <strong>La réponse courte : dans la pratique, oui.</strong> Aucune loi canadienne
                                 fédérale n'interdit explicitement aux citoyens de jouer sur des casinos étrangers en ligne.
-                                Les plateformes comme Stake, Roobet et BC.Game opèrent sous des licences internationales
+                                Les plateformes comme Stake, BC.Game et Gamdom opèrent sous des licences internationales
                                 reconnues (Curaçao Gaming Authority) et accueillent activement les joueurs québécois.
                             </p>
                             <p>
@@ -245,7 +245,7 @@ export default function PillarPage() {
                     <div className="pillar-steps">
                         {[
                             { n: '1', title: 'Achetez du Bitcoin', desc: 'Sur Shakepay ou Bitbuy — les deux plateformes acceptent les virements Interac chez les Canadiens.' },
-                            { n: '2', title: 'Créez votre compte casino', desc: 'Inscrivez-vous sur Stake, Roobet ou BC.Game — email seulement, pas de vérification d\'identité au départ.' },
+                            { n: '2', title: 'Créez votre compte casino', desc: 'Inscrivez-vous sur Stake, Gamdom ou BC.Game — email seulement, pas de vérification d\'identité au départ.' },
                             { n: '3', title: 'Copiez l\'adresse de dépôt', desc: 'Dans la section "Wallet" du casino, sélectionnez BTC et copiez l\'adresse de dépôt affichée.' },
                             { n: '4', title: 'Envoyez le BTC', desc: 'Depuis Shakepay/Bitbuy, collez l\'adresse casino et envoyez. Confirmation en 10-30 minutes.' },
                         ].map(s => (

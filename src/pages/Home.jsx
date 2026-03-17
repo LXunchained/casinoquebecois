@@ -223,7 +223,7 @@ export default function Home() {
                             { emoji: '⚖️', title: 'Rakeback vs Bonus — Lequel choisir?', slug: 'rakeback-vs-bonus-bienvenue', badge: 'Nouveau' },
                             { emoji: '⚡', title: 'Stake Casino au Québec — Est-ce légal?', slug: 'stake-casino-quebec-legal', badge: null },
                             { emoji: '⚔️', title: 'Gamdom vs Rollbit 2026 — Comparaison', slug: 'gamdom-vs-rollbit-2026', badge: 'Nouveau' },
-                            { emoji: '₿', title: 'Guide Bitcoin Casino Canada 2026', slug: 'casino-bitcoin-canada-guide', badge: null },
+                            { emoji: '🆚', title: 'Stake vs BC.Game — Comparaison 2026', slug: 'stake-vs-bc-game-comparaison', badge: null },
                         ].map(g => (
                             <Link key={g.slug} to={`/guide/${g.slug}`} className="home-guide-card">
                                 <span className="hgc-emoji">{g.emoji}</span>
