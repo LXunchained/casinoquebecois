@@ -823,6 +823,46 @@ Pour les montants plus importants, ce pourcentage diminue proportionnellement.`
             casino: 'Rollbit',
         }
     },
+    {
+        slug: 'rakeback-vs-bonus-bienvenue',
+        title: 'Rakeback vs Bonus de Bienvenue — Lequel est Vraiment Meilleur en 2026?',
+        metaTitle: 'Rakeback vs Bonus Bienvenue Casino 2026 — Comparaison | CasinoQuébécois',
+        metaDescription: 'Rakeback ou bonus de bienvenue : lequel rapporte le plus pour les joueurs québécois? Comparaison complète avec calculs réels. Stake vs BC.Game.',
+        category: 'Guide',
+        readTime: '7 min',
+        date: '17 mars 2026',
+        casinoSlug: 'stake',
+        heroEmoji: '⚖️',
+        intro: 'Tu hésites entre un casino qui offre un gros bonus de bienvenue et un casino avec du rakeback ? C\'est une question cruciale car le choix peut valoir des centaines de dollars. Voici une comparaison honnête avec des calculs concrets.',
+        sections: [
+            {
+                title: 'C\'est quoi un bonus de bienvenue?',
+                content: `Un **bonus de bienvenue** (ou bonus de dépôt) est une somme offerte par le casino lors de votre premier (ou premiers) dépôt(s). Exemple classique : dépôse 100$ et reçois 100$ de bonus — tu joues avec 200$.\n\n**Le piège : les conditions de mise (wagering requirements)**\nLes bonus de bienvenue viennent presque toujours avec des conditions de mise. x30, x40 ou x50 de wagering signifie que tu dois miser 30x, 40x ou 50x la valeur du bonus avant de pouvoir le retirer.\n\nExemple concret : Bonus 100$ avec x40 de wagering = tu dois miser 4 000$ avant de voir un seul dollar de ce bonus. Avec un house edge moyen de 3-5%, tu perdras statistiquement 120-200$ en atteignant ce wagering. Le bonus coûte plus qu'il ne rapporte.`
+            },
+            {
+                title: 'C\'est quoi le rakeback?',
+                content: `Le **rakeback** est un remboursement automatique d'un pourcentage de tes mises, sans conditions de mise.\n\nExemple : Stake offre du rakeback quotidien, hebdomadaire et mensuel. Si tu joues 1 000$ dans la semaine et que ton rakeback hebdomadaire est de 5%, tu reçois automatiquement 50$ — retirables immédiatement, sans wagering.\n\n**La formule simple :**\nRakeback = (Total des mises) × (% de rakeback)\n\nPlus tu joues, plus tu reçois. Le taux de rakeback augmente souvent avec ton niveau de fidélité.`
+            },
+            {
+                title: 'Comparaison chiffrée : 3 mois de jeu réel',
+                content: `Prenons un exemple réaliste : tu joues 500$/semaine sur des slots (house edge ~4%).\n\n**Scénario A — Casino avec bonus 500$ x40 wagering (BC.Game)**\n- Bonus reçu : 500$ (sur dépôt de 500$)\n- Wagering requis : 20 000$\n- Temps pour atteindre le wagering : ~3 semaines\n- Perte statistique pendant le wagering : 20 000$ × 4% = 800$\n- Résultat net : tu as perdu 800$ pour "débloquer" 500$ → **perte nette de 300$**\n\n**Scénario B — Casino avec rakeback automatique (Stake)**\n- Pas de bonus de bienvenue\n- 3 mois de jeu = 6 000$ misés\n- Rakeback estimé (quotidien + hebdo + mensuel) : ~8% sur la période = 480$\n- Ces 480$ arrivent sans condition, retirables quand tu veux\n- **Résultat : 480$ reçus sans contrainte**\n\n→ Sur 3 mois, le rakeback Stake surpasse largement le bonus de bienvenue de BC.Game pour ce profil de joueur.`
+            },
+            {
+                title: 'Quand le bonus de bienvenue est meilleur?',
+                content: `Il y a un cas où le bonus de bienvenue gagne : **si tu joues uniquement une fois et ne reviendras jamais**.\n\nSi tu déposes 100$, avances dans le wagering, retires ce que tu peux et passes au casino suivant — cette stratégie de "bonus hunting" peut être rentable. Mais elle demande du temps, de la discipline, et les casinos en sont de plus en plus conscients (limitation des jeux autorisés pour le wagering, vérifications d'identité, etc.).\n\nPour les **joueurs réguliers** — qui reviennent chaque semaine — le rakeback est presque toujours supérieur sur le long terme.`
+            },
+            {
+                title: 'Notre recommandation pour les Québécois',
+                content: `**Si tu joues régulièrement (1x/semaine+) :** Choisis Stake pour son rakeback automatique sans conditions. C'est mathématiquement avantageux dès le 2e mois.\n\n**Si tu veux tester sans engagement :** Roobet offre 1$ sans dépôt pour tester gratuitement — zero risque.\n\n**Si tu veux le meilleur des deux mondes :** Ouvre un compte Stake pour ton jeu régulier ET utilise BC.Game pour ton bonus de bienvenue lors de ton premier dépôt là-bas — profite des deux systèmes.\n\nLa règle d'or : **Lis toujours les conditions de mise AVANT de réclamer un bonus.** Un x40 de wagering rend la plupart des bonus théoriquement non-rentables pour le joueur moyen.`
+            }
+        ],
+        tags: ['rakeback', 'bonus', 'bienvenue', 'stake', 'comparaison'],
+        cta: {
+            text: 'Commencer sur Stake — Rakeback automatique, zéro wagering',
+            url: 'https://stake.com/?c=tARfHbZE',
+            casino: 'Stake',
+        }
+    },
 ];
 
 export const getGuideBySlug = (slug) => guides.find(g => g.slug === slug) || null;

@@ -35,7 +35,7 @@ export default function Classement() {
                     <div className="classement-stats">
                         {[
                             { val: casinos.length, label: 'Casinos testés' },
-                            { val: Math.max(...casinos.map(c => parseFloat(c.bonus))).toLocaleString('fr-CA') + ' $', label: 'Bonus max' },
+                            { val: Math.max(...casinos.map(c => { const m = c.bonus.match(/[\d\s]+/); return m ? parseFloat(m[0].replace(/\s/g, '')) : 0; })).toLocaleString('fr-CA') + ' $+', label: 'Bonus max' },
                             { val: casinos.filter(c => c.hasFreeTrial).length, label: 'Offres sans dépôt' },
                             { val: (casinos.reduce((a, c) => a + c.rating, 0) / casinos.length).toFixed(1) + '/5', label: 'Note moyenne' },
                         ].map(s => (

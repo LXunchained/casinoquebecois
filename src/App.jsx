@@ -12,6 +12,7 @@ import FaqPage from './pages/FaqPage'
 import JeuResponsable from './pages/JeuResponsable'
 import Confidentialite from './pages/Confidentialite'
 import APropos from './pages/APropos'
+import StickyCTA from './components/StickyCTA'
 
 function App() {
     return (
@@ -33,6 +34,7 @@ function App() {
                 </Routes>
             </main>
             <Footer />
+            <StickyCTA />
         </div>
     )
 }
