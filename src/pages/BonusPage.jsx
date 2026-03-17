@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { Gift, ExternalLink, Star, Zap, ChevronDown, ChevronUp, Filter } from 'lucide-react'
 import { casinos } from '../data/casinos'
 import { Link } from 'react-router-dom'
+import SEOMeta from '../components/SEOMeta'
 
 const bonusTypes = [
     { id: 'all', label: 'Tous les bonus' },
@@ -112,10 +113,18 @@ export default function BonusPage() {
         return true
     })
 
-    const totalBonus = casinos.reduce((sum, c) => sum + parseFloat(c.bonus.replace(/\s/g, '').replace(',', '.')), 0)
+    const totalBonus = casinos.reduce((sum, c) => {
+        const match = c.bonus.replace(/\s/g, '').replace(',', '.').match(/[\d.]+/)
+        return sum + (match ? parseFloat(match[0]) : 0)
+    }, 0)
 
     return (
         <div className="bonus-page">
+            <SEOMeta
+                title="Bonus Casino Québec 2026 — Offres Exclusives"
+                description="Tous les bonus des meilleurs casinos en ligne pour Québécois. Bonus de bienvenue, tours gratuits, rakeback. S'active automatiquement via nos liens."
+                canonical="/bonus"
+            />
             {/* Hero */}
             <section className="page-hero">
                 <div className="container">

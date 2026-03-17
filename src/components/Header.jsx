@@ -20,6 +20,8 @@ export default function Header() {
                     <NavLink to="/" end onClick={() => setOpen(false)}>Accueil</NavLink>
                     <NavLink to="/meilleurs-casinos" onClick={() => setOpen(false)}>Top Casinos</NavLink>
                     <NavLink to="/bonus" onClick={() => setOpen(false)}>Bonus</NavLink>
+                    <NavLink to="/guide" onClick={() => setOpen(false)}>Guides</NavLink>
+                    <NavLink to="/faq" onClick={() => setOpen(false)}>FAQ</NavLink>
                 </nav>
 
                 <div className="header-actions">

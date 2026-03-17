@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { ArrowRight, Shield, Star, Zap, Trophy, Gift } from 'lucide-react'
 import { casinos } from '../data/casinos'
 import CasinoCard from '../components/CasinoCard'
+import SEOMeta from '../components/SEOMeta'
 
 const fadeUp = { initial: { opacity: 0, y: 28 }, animate: { opacity: 1, y: 0 }, transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] } }
 const stagger = { animate: { transition: { staggerChildren: 0.1 } } }
@@ -19,6 +20,11 @@ const topCasinos = casinos.filter(c => c.badge).slice(0, 3)
 export default function Home() {
     return (
         <div className="home">
+            <SEOMeta
+                title="Meilleurs Casinos en Ligne au Québec 2026"
+                description="Découvrez les meilleurs casinos en ligne pour joueurs québécois. Comparatif 2026, bonus exclusifs, revues honnêtes. Stake, BC.Game, Gamdom et plus."
+                canonical="/"
+            />
 
             {/* Hero */}
             <motion.section
@@ -76,7 +82,7 @@ export default function Home() {
                     <div className="stats-row">
                         {[
                             { val: casinos.length + '+', label: 'Casinos testés' },
-                            { val: Math.max(...casinos.map(c => parseFloat(c.bonus))) + ' $', label: 'Bonus max disponible' },
+                            { val: '20 000 $', label: 'Bonus max disponible' },
                             { val: '100%', label: 'Casinos licenciés' },
                             { val: '18+', label: 'Jeu responsable' },
                         ].map(s => (

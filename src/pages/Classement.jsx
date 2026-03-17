@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Filter, Trophy, Star } from 'lucide-react'
 import { casinos, categories } from '../data/casinos'
 import CasinoCard from '../components/CasinoCard'
+import SEOMeta from '../components/SEOMeta'
 
 const fadeUp = { initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0 }, exit: { opacity: 0, y: -10 }, transition: { duration: 0.4 } }
 
@@ -15,6 +16,11 @@ export default function Classement() {
 
     return (
         <div className="classement-page">
+            <SEOMeta
+                title="Classement Meilleurs Casinos en Ligne Québec 2026"
+                description="Classement complet des meilleurs casinos en ligne pour les Québécois. Filtres par catégorie, tableau comparatif, bonus vérifiés. Mis à jour mars 2026."
+                canonical="/meilleurs-casinos"
+            />
             <section className="page-hero">
                 <div className="container">
                     <div className="page-hero-badge"><Trophy size={14} /> Classement 2026</div>

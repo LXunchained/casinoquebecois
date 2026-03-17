@@ -25,12 +25,14 @@ export default function Footer() {
                             <Link to="/">Accueil</Link>
                             <Link to="/meilleurs-casinos">Top Casinos</Link>
                             <Link to="/bonus">Bonus & Promotions</Link>
+                            <Link to="/guide">Guides</Link>
+                            <Link to="/faq">FAQ</Link>
                         </div>
                         <div>
                             <h4>Information</h4>
-                            <a href="#" onClick={e => e.preventDefault()}>Jeu responsable</a>
-                            <a href="#" onClick={e => e.preventDefault()}>Politique de confidentialité</a>
-                            <a href="#" onClick={e => e.preventDefault()}>À propos</a>
+                            <Link to="/jeu-responsable">Jeu responsable</Link>
+                            <Link to="/confidentialite">Politique de confidentialité</Link>
+                            <Link to="/a-propos">À propos</Link>
                         </div>
                     </div>
                 </div>
@@ -38,7 +40,7 @@ export default function Footer() {
                 <div className="footer-responsible">
                     <div className="responsible-row">
                         <Shield size={16} />
-                        <span><strong>Jeu responsable :</strong> Si le jeu devient un problème, appelez le <strong>1-800-461-0140</strong> (Jeu : Aide et Référence)</span>
+                        <span><strong>Jeu responsable :</strong> Si le jeu devient un problème, appelez le <strong>1-800-461-0140</strong> (Jeu : Aide et Référence — 24h/7j)</span>
                     </div>
                 </div>
 
