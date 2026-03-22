@@ -27,6 +27,7 @@ export default function Footer() {
                             <Link to="/casino-crypto-quebec">Casino Crypto</Link>
                             <Link to="/bonus">Bonus & Promotions</Link>
                             <Link to="/guide">Guides</Link>
+                            <Link to="/comparer">Comparer les casinos</Link>
                             <Link to="/faq">FAQ</Link>
                         </div>
                         <div>

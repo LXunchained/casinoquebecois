@@ -22,6 +22,7 @@ export default function Header() {
                     <NavLink to="/casino-crypto-quebec" onClick={() => setOpen(false)}>Casino Crypto</NavLink>
                     <NavLink to="/bonus" onClick={() => setOpen(false)}>Bonus</NavLink>
                     <NavLink to="/guide" onClick={() => setOpen(false)}>Guides</NavLink>
+                    <NavLink to="/comparer" onClick={() => setOpen(false)}>Comparer</NavLink>
                     <NavLink to="/faq" onClick={() => setOpen(false)}>FAQ</NavLink>
                 </nav>
 
